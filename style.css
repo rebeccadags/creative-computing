@@ -1,3 +1,47 @@
 body {
-  background-color: lightblue;
+  background-color: #F2F2F2;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #009999
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 35px;
+  font-style: italic;
+  color: #6666cc;
+}
+
+p {
+  font-family: Helvetica;
+  color: #1b168d;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+  padding: 1px 16px;
+  background: #555
+  color: #f1f1f1;
+  text-align:center;
+}
+
+a{
+color:#1b168d
+}
+
+button {
+  border-color: #6666cc;
+    border-style: solid;
+    border-width: 3px;
+    padding: 14px 50px 8px;
+}
+
+form {
+  padding: 20px 75px 16px;
 }

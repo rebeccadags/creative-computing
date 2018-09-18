@@ -1,0 +1,42 @@
+body {
+  background-color: #F2F2F2;
+  padding: 50px 125px
+}
+
+h1 {
+  font-family: serif;
+  font-size: 70px;
+  color: #006699;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 40px;
+  font-style: italic;
+  color: #000000;
+}
+
+h4 {
+  font-family: serif;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+  font-family: serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+a{
+  color:006699
+}
+
+#blue-text{
+  color:#006699
+}
