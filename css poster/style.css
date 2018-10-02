@@ -1,0 +1,77 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 480px;
+  margin: 8px;
+  text-align: center;
+  font-family: monospace;
+  line-height: 85px;
+  font-size: 20px;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+
+.flex-container-2 > div {
+  background-color: #f1f1f1;
+  width: 480px;
+  margin: 6px;
+  text-align: center;
+  font-family: monospace;
+  line-height: 500px;
+  font-size: 20px;
+}
+
+#title {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 40;
+}
+
+body  {
+    background-image: url("trip.jpg");
+    background-color: #cccccc;
+}
+
+#flex-container{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  border: 0px;
+  border-radius: 5px;
+  height: 500px;
+}
+
+.child{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 30px 650px;;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;:
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+    align-items: center
+}
