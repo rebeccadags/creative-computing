@@ -45,3 +45,9 @@ button {
 form {
   padding: 20px 75px 16px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .child{
+    background-color: red;
+  }
+}
