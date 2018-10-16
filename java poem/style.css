@@ -1,0 +1,15 @@
+body {
+      margin: 0;
+      font-family: monospace;
+      font-size: 16px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .town {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .parcel {
+      display: block;
+    }
