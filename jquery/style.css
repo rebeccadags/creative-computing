@@ -1,0 +1,18 @@
+.body{
+  background-color: #ff8533;
+}
+
+#button{
+  background-color: #ccccff;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 43px;
+    font-style: italic;
+    margin: 2px 2px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
