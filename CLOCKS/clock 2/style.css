@@ -1,0 +1,7 @@
+body {
+  font-size: 400px
+}
+
+body:hover {
+  font-size: 100px
+}

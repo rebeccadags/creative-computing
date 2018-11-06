@@ -1,0 +1,32 @@
+body {
+    background: #d4f5f7;
+    font-size: 300px;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding-right: 25px;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 75px;
+  text-align: right;
+}
+
+.rainbow {
+  -webkit-animation: rainbow 3s infinite;
+}
+@-webkit-keyframes rainbow{
+  0%{color: #fc5316;}
+  10%{color: #7916fc;}
+	20%{color: #d30082;}
+	40%{color: yellow;}
+	60%{color: #00c950;}
+	100%{color: #2c40f7;}
+	100%{color: ##ff00fa;}
+}
