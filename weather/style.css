@@ -1,0 +1,24 @@
+body {
+  background-image: url("cloud.jpg");
+  background-size: cover;
+}
+
+#windText:hover{
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#windText{
+  font-style: italic;
+}
+
+#wind{
+  width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: #555;
+}
+#wind:hover{
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
