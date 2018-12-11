@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title></title>
+  </head>
+
+  <style>
+
+    .heading {
+      font-size: 60px;
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    .grid-container {
+      height: 640px;
+      width: 700px;
+      display: none;
+      /* grid-column-gap: 1rem; */
+      grid-template-columns: auto auto auto;
+      /* background-color: #2196F3; */
+      padding: 30px;
+      margin-left: 350px;
+      margin-top: 0px;
+      align-items: center;
+      justify-items: center;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0);
+      border-radius: 100px;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .peach-square {
+      height: 150px;
+      width: 150px;
+      background-color: #F8B195;
+    }
+
+    .peach-square:hover {
+      opacity: .6
+    }
+
+    .red-square {
+      height: 150px;
+      width: 150px;
+      background-color: #F67280;
+    }
+
+    .red-square:hover {
+      opacity: .6
+    }
+
+    .purple-square {
+      height: 150px;
+      width: 150px;
+      background-color: #6C5B7B;
+    }
+
+    .purple-square:hover {
+      opacity: .6
+    }
+
+    .rose-square {
+      height: 150px;
+      width: 150px;
+      background-color: #C06C84;
+    }
+
+    .rose-square:hover {
+      opacity: .6
+    }
+
+    .navy-square {
+      height: 150px;
+      width: 150px;
+      background-color: #355C7D;
+    }
+    .navy-square:hover {
+      opacity: .6
+    }
+
+    .mint-square{
+      height: 100px;
+      width: 100px;
+      background-color: #A8E6CE;
+    }
+
+    .mint-square:hover {
+      opacity: .6
+    }
+
+    .teal-square{
+      height: 100px;
+      width: 100px;
+      background-color: #16a5af;
+    }
+
+    .teal-square:hover {
+      opacity: .6
+    }
+
+    .green-square{
+      height: 100px;
+      width: 100px;
+      background-color: #DCEDC2;
+    }
+
+    .green-square:hover {
+      opacity: .6
+    }
+
+    .yellow-square{
+      height: 100px;
+      width: 100px;
+      background-color: #EDE574;
+    }
+
+    .yellow-square:hover {
+      opacity: .6
+    }
+
+
+
+</style>
+  <body>
+    <audio id="peach-audio" src="peach.wav"> </audio>
+    <audio id="purple-audio" src="purple.wav"> </audio>
+    <audio id="mint-audio" src="mint.wav"> </audio>
+    <audio id="yellow-audio" src="yellow.mp3"> </audio>
+    <audio id="red-audio" src="red.wav"> </audio>
+    <audio id="green-audio" src="green.wav"> </audio>
+    <audio id="rose-audio" src="rose.wav"> </audio>
+    <audio id="teal-audio" src="teal.wav"> </audio>
+    <audio id="navy-audio" src="navy.wav"> </audio>
+
+    <div class="heading">Click to Play</div>
+      <div class="grid-container">
+      <div class="purple-square grid-item"></div>
+      <div class="mint-square grid-item"></div>
+      <div class="peach-square grid-item"></div>
+      <div class="yellow-square grid-item"></div>
+      <div class="red-square grid-item"></div>
+      <div class="green-square grid-item"></div>
+      <div class="rose-square grid-item"></div>
+      <div class="teal-square grid-item"></div>
+      <div class="navy-square grid-item"></div>
+    </div>
+
+
+      <script type="text/javascript">
+      $("document").ready(function(){
+        //once the documen has loaded
+        $(".heading").click(function(){
+          $(".grid-container").css("display", "grid")
+        })
+
+      // Each one needs this
+      $(".peach-square").mouseover(function(){
+            $("#peach-audio").get(0).play()
+            console.log('peach')
+      })
+
+      $(".purple-square").mouseover(function(){
+            $("#purple-audio").get(0).play()
+            console.log('purple')
+      })
+
+      $(".mint-square").mouseover(function(){
+            $("#mint-audio").get(0).play()
+            console.log('mint')
+      })
+
+      $(".yellow-square").mouseover(function(){
+            $("#yellow-audio").get(0).play()
+            console.log('yellow')
+      })
+
+      $(".red-square").mouseover(function(){
+            $("#red-audio").get(0).play()
+            console.log('red')
+      })
+
+      $(".green-square").mouseover(function(){
+            $("#green-audio").get(0).play()
+            console.log('green')
+      })
+
+      $(".rose-square").mouseover(function(){
+            $("#rose-audio").get(0).play()
+            console.log('rose')
+      })
+
+      $(".teal-square").mouseover(function(){
+            $("#teal-audio").get(0).play()
+            console.log('teal')
+      })
+
+      $(".navy-square").mouseover(function(){
+            $("#navy-audio").get(0).play()
+            console.log('navy')
+      })
+
+
+      //
+
+
+      })
+
+    </script>
+  </body>
+</html>
